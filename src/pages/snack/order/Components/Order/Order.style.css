@@ -1,0 +1,14 @@
+.Order {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.Info {
+    margin-top: 3vw;
+    color: green;
+    flex-direction: row;
+    flex: 1;
+    position: center;
+}

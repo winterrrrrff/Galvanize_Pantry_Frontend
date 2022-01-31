@@ -1,0 +1,6 @@
+.OrderList {
+    width: 85vw;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}

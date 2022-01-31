@@ -1,0 +1,145 @@
+
+#name {
+    display: inline-block;
+    margin-top:5%;
+    color: white;
+    font-size: 300%;
+}
+
+#filled-name {
+    font-size: 2rem;
+}
+
+#name-container {
+    background-color: rgba(120, 92, 171, 0.7);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#product-id {
+    display: inline-block;
+    width: 300px;
+    color: white;
+    font-size: 300%;
+}
+
+#filled-product-id {
+    font-size: 2rem;
+}
+
+#product-id-container {
+    margin-top:5%;
+    background-color: #e6be93;
+    display: flex;
+    justify-content: space-evenly;
+}
+#category-select{
+    font-size: 1.2rem;
+    margin: 5%;
+    width: 290px;
+    height: 50px;
+}
+#category-container {
+    background-color: #e6be93;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#category {
+    margin-top:5%;
+    display: inline-block;
+    width: 300px;
+    color: white;
+    font-size: 300%;
+}
+
+#picture-container1 {
+    background-color: #e6be93;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#picture {
+    margin-top:5%;
+    display: inline-block;
+    width: 160px;
+    color: white;
+    font-size: 300%;
+}
+
+#picture-upload {
+    align-content: center;
+    font-size: 220%;
+}
+#expire-date-container{
+    background-color: #e6be93;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#price {
+    display: inline-block;
+    width: 300px;
+    color: white;
+    font-size: 300%;
+}
+
+#filled-price {
+    font-size: 2rem;
+}
+
+#price-container {
+    background-color: #e6be93;
+    display: flex;
+    justify-content: space-evenly;
+}
+#vote {
+    margin-top:5%;
+    display: inline-block;
+    width: 230px;
+    color: white;
+    font-size: 300%;
+}
+
+#filled-vote {
+    font-size: 2rem;
+}
+
+#type-container {
+    background-color: rgba(120, 92, 171, 0.7);
+    display: flex;
+    justify-content: space-evenly;
+    height: 90px;
+}
+
+#field-container {
+    width: 350px;
+}
+
+#type {
+    margin-top:5%;
+    display: inline-block;
+    width: 300px;
+    color: white;
+    font-size: 300%;
+}
+
+#vote-container {
+    background-color: rgba(120, 92, 171, 0.7);;
+    display: flex;
+    justify-content: space-evenly;
+}
+.modal {
+    font-size: 12px;
+}
+
+#add-button {
+    display: flex;
+    justify-content: center;
+}
+
+#label-container {
+    display: flex;
+    justify-content: center;
+}
+

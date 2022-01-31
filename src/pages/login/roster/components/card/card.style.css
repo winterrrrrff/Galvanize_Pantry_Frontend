@@ -1,0 +1,71 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25 ease-out;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.modal {
+    text-align: center;
+    padding: 20px 20px;
+    background-color:bisque;
+    border-radius: 15px 50px;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+  }
+  .modal > .content {
+    width: 100%;
+    font-size: 30px;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+  .button {
+    color:white;
+    font-size: 26px;
+    border-radius: 12px;
+    background-color: #008CBA;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .modal > .content {
+      font-size: 5.8vw;
+    }
+    .modal > .header {
+      font-size: 5.8vw;
+    }
+  }

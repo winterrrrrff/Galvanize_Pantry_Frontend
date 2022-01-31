@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+html {
+    font-size: 16px;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1;
+}
+
+.Main {
+    height: 100vh;
+}
+
+.Tabs {
+    height: 100%;
+    display: flex;
+}
+
+.TabList {
+    width: 14rem;
+    color:  #e6a34b;
+    /* background: #e6a34b; */
+}
+
+.TabPanel {
+    flex: 1;
+    display: none;
+    padding: 1.5rem 2rem;
+}
+.TabPanel.is-active {
+    display: block;
+}
+
+.Button {
+    display: inline-block;
+    width: 10rem;
+    padding: 1rem 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    /* color: #fff; */
+}
+.Button:focus,
+.Button:hover {
+    outline: 0;
+    background: #e6be93;
+}
+.Tab.is-active .Button {
+    background: #785cab;
+}

@@ -1,0 +1,161 @@
+.RosterLogin{
+    text-align: center;
+}
+
+.SearchSection{
+    /* background-color: black; */
+    width: 85%;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 3px solid #73AD21; */
+    display: block;
+}
+
+.Sub-searchSection {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 3%;
+}
+
+h1 {
+    font-family: 'Bigelow Rules';
+    font-size: 15%;
+    color: #0ccac4;
+}
+
+.backToMainBtn {
+    width: 100px;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 16px;
+    border-radius: 50px;
+    background: #785cab;
+    color: #e6a34b;
+}
+
+.backToMainBtn:hover {
+    background: #e6a34b;
+    color: #785cab;
+}
+
+.loaderContainer {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 85vw;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+.loader {
+    margin: 0 auto;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .RosterLogin{
+        display: flex;
+        flex: 1 1 500px;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .RosterLogin .card-list {
+        display: block;
+        /* background-color: pink; */
+        flex: 100%;
+    }
+
+    .SearchSection{
+        /* background-color: black; */
+        width: 100%;
+        height: 18%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .LogoSection{
+        flex: 100%;
+        /* border: 3px solid #73AD21; */
+    }
+
+    .LogoSection div {
+        max-width: 100%;
+    }
+
+    .Sub-searchSection {
+        flex: 100%;
+        /* border: 3px solid red; */
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .RosterLogin{
+        display: flex;
+        flex: 1 1 500px;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .SearchSection{
+        width: 100%;
+        height: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .LogoSection {
+        flex: 50%;
+        margin: auto;
+        float: left;
+    }
+    .Sub-searchSection {
+        flex: 50%;
+        float: right;
+    }
+
+    .RosterLogin .card-list {
+        /* display: block; */
+        grid: auto-flow dense / 1fr 1fr;
+        /* background-color: pink; */
+        /* flex: 100%; */
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .RosterLogin .card-list {
+        display: grid;
+        grid: auto-flow / 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* iPhone X */
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+
+}

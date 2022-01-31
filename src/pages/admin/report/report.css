@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+
+html {
+    font-size: 16px;
+   
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1;
+    
+
+}
+
+.Main {
+    height: 100vh;
+    
+
+}
+
+.Tabs {
+    height: 100%;
+    display: flex;
+}
+
+.TabList {
+    width: 14rem;
+    color:  #e6a34b;
+    /* background: #e6a34b; */
+}
+
+.TabPanel {
+    flex: 1;
+    display: flex;
+    padding: 1.5rem 2rem;
+}
+.TabPanel.is-active {
+    /* display: block; */
+    display: flex;
+}
+.reportheader{
+    width: 100%;
+    height: 75px;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rebeccapurple;
+}
+
+.Button {
+    /* display: inline-block; */
+    display: flex;
+    width: 10rem;
+    padding: 1rem 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: bold;
+    /* color: #fff; */
+}
+.Button:focus,
+.Button:hover {
+    outline: 0;
+    background: #e6be93;
+}
+.Tab.is-active .Button {
+    background: #785cab;
+}
+
+#name {
+    color:#785cab;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#filled-quantity {
+    font-size: 14px;
+    font-weight: bold;
+    color:#785cab;
+}
+
+#quantity-container {
+    margin-top: 22%;
+    margin-left: -30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.reportButton{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#785cab;
+    color: #e6a34b;
+    font-size: 30px;
+    margin-top: 20px;
+  
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 100px;
+  
+}
+
+.ReportButton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#785cab;
+    color: #e6a34b;
+    font-size: 100%;
+    margin-top: 20px;
+  
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 100px;
+    
+    cursor: pointer;
+    font-family: inherit;
+    
+    background-color: #785cab;
+    color: #e6a34b;
+}
+.ReportButton:focus,
+.ReportButton:hover {
+    outline: 0;
+    background: #e6a34b;
+    color: #785cab;
+}

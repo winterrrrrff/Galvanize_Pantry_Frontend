@@ -1,5 +1,7 @@
 # Team Sense8: Galvanize Pantry Frontend
 Deployed link: https://galvanize-pantry.herokuapp.com
+# Index Page
+![image info](./index.png)
 
  ## Team member:
 - Winter Feng
